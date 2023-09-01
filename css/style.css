@@ -1,0 +1,165 @@
+body {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+ 
+}
+
+#encabezado {
+
+    background-color: rgb(0, 0, 0);
+
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: #fff;
+}
+
+h1 {
+
+    display: flex;
+    justify-content: center;
+    
+}
+figure {
+    
+    width: 100px;
+    height: 53px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    margin: 0;
+}
+.logo {
+
+    margin: 0;
+    padding: 25px 30px;
+    width: 100px;
+    box-sizing: border-box;
+}
+#article1{
+
+    width: 95%;
+    height: 124px; 
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(112, 220, 242);
+
+}
+#seccion01 {
+
+    width: 400px;
+    height: 500px;
+    border: 2px solid black; 
+    border-radius: 10px; 
+    margin-left: 500px;
+}
+
+h1 {
+
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+#presentacion {
+
+   text-indent: 2em;
+}
+
+#article2 {
+
+    width: 95%;
+    height: 350px; 
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(112, 220, 242);
+
+}
+ #enlace{
+
+    text-indent: 5em;
+    text-decoration: none;
+    color: brown;
+    
+}
+
+
+.footer{
+
+    width: 100%;
+    background:rgba(94, 94, 222, 0.8);
+    bottom: 0;        
+    position: fixed;
+    background-size: cover;
+    margin: 0%;
+    height: 60px;
+}
+
+form {
+    
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 90px;
+    background-image: linear-gradient(
+        100deg,
+        #593583b0,
+        rgb(40, 213, 236),
+        #1cc01c8a
+    );
+    padding: 1em; 
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    box-shadow: 0px 5px 10px #3c6d7e, 0 0 0 10px #EEF5F7 inset;
+}
+#botones {
+
+    border: 1;
+    background-image: linear-gradient(
+        150deg,
+        #f3a6e9,
+        #61e4f5,
+        gray
+    );
+    border-radius: 8px;
+    color: black;
+    display: flex;
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+
+.footer .footer-text{
+  
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #fff;
+}
+.footer .footer-text p{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+label {
+    color: maroon;
+    display:block; 
+    padding:5px;
+}
+
+input {
+    margin:10px;
+    border-radius: 1.3em ;
+    padding: 4px;
+}
